@@ -8,6 +8,7 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yay! See you on the 13th!";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    noBtn.remove();
 });
 
 noBtn.addEventListener("mouseover", () => {
